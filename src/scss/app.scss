@@ -28,14 +28,15 @@ html {
   flex-flow: column;
 }
 
-@media only and (min-width: 1000px){
-    .navbar-menu {
-        display:none;
-    }
+
+@media screen and (max-width: 600px) {
+  .navbar-menu {
+    display:none;
+  }
 }
 
-@media only and (max-width: 600px){
-    .navbar-burger {
-       display: none;
-    }
+@media screen and (min-width: 1000px) {
+  .navbar-burger {
+    display: none;
+  }
 }
